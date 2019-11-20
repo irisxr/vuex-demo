@@ -4,6 +4,8 @@
         <br/>
         <router-link to="/user/12">Go to /user/12</router-link>
         <br/>
+        <router-link to="/user/12/profile">Go to /user/12/profile</router-link>
+        <br/>
         <button @click="$router.push('foo')">go to foo</button>
         <p>{{routerInfo}}</p>
     </div>
